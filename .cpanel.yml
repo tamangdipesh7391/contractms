@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mounteverestview/public_html/cms/
+    - /bin/cp -R * $DEPLOYPATH
+    
