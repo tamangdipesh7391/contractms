@@ -1,0 +1,33 @@
+table td,table th{
+    text-align: center;
+}
+.toggler{
+    position:relative;
+    width:80px;
+    height:40px;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+.circle{
+    transition: 0.5s;
+    height:40px;
+    width:40px;
+    background-color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.tds-box{
+    position: relative;
+    top:0;
+    right: 0;
+}
+.active-circle{
+    left:40px;
+    background-color: #fff;
+    transition: .5s all;
+}
+.active-circle-bg{
+    background-color: #007bff;
+}
